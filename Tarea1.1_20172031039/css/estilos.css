@@ -1,0 +1,80 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+img.profile-pic {
+  border-radius: 50%;
+  width: 80px; /* Reducir el tamaño de la imagen */
+  height: auto; /* Hacer que la altura se ajuste automáticamente */
+  border: 3px solid #ffffff;
+  float: right; /* Colocar la imagen a la derecha */
+  margin-left: 20px; /* Añadir un margen para separar la imagen del contenido */
+}
+
+
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  border-bottom: 2px solid #333333;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #555555;
+}
+
+/* Estilos adicionales */
+
+.datos-generales p {
+  font-size: 16px;
+}
+
+.educacion li {
+  font-weight: bold;
+}
+
+.experiencia-laboral li {
+  font-style: italic;
+}
+
+.cursos-recibidos li {
+  color: #007bff;
+}
+
+.habilidades li {
+  font-weight: bold;
+  color: #4CAF50;
+}
